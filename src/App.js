@@ -1,9 +1,7 @@
 import './App.css';
 import React, { Component} from 'react';
 import { MemoryRouter as Router, Route, Link, Routes } from 'react-router-dom';
-import { connect } from 'react-redux';
 import { Icon } from '@iconify/react';
-import starredReducer from '../src/reducers/index.js';
 import ThemeButton from './components/ThemeButton.js';
 import Latest from './components/Latest.js';
 import Starred from './components/Starred.js';
@@ -45,4 +43,4 @@ class App extends Component {
   }
 };
 
-export default connect()(App);
+export default App;

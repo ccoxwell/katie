@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
+// import { createStore } from 'redux';
+import store from './app/store'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import starredReducer from '../src/reducers/index.js';
+// import starredReducer from '../src/reducers/index.js';
 
-const store = createStore(starredReducer);
+// const store = createStore(starredReducer);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

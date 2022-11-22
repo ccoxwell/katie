@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
-import { addStarred } from '../actions/index.js';
+// import { addStarred } from '../actions/index.js';
 import StarredButton from './StarredButton.js';
 
 class Latest extends Component {
